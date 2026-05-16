@@ -1,0 +1,12 @@
+{
+  "name": "armadillojs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {},
+  "dependencies": {
+    "@babel/parser": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "@babel/types": "^7.24.0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sources":[
+    {
+      "input": "./input/",
+      "output": "./output/"
+    }
+  ],
+  "target": [],
+  "exempt": [
+    "method{pushPacketQueue}"
+  ],
+  "libs": [
+    "node_modules"
+  ],
+  "virtualize": {
+    "enabled": true,
+    "target": [],
+    "exempt": []
+  },
+  "stringProtection": {
+    "enabled": true,
+    "exempt": []
+  },
+  "numberProtection": {
+    "enabled": true,
+    "exempt": []
+  },
+  "controlFlow": {
+    "enabled": true,
+    "seed": 0,
+    "junkCodesPercent": 1,
+    "exempt": []
+  },
+  "remap": {
+    "enabled": true,
+    "modulePrefix": "☺️/",
+    "methodPrefix": "\n\n\n",
+    "fieldPrefix": "",
+    "localVariableName": "",
+    "dictionary": ["1Il|!i", "oO0"],
+    "module": "strip",
+    "methods": "strip",
+    "fields": "strip",
+    "exempt": []
+  }
+}
